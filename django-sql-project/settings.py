@@ -34,7 +34,7 @@ DEBUG = True
 
 # SECURITY WARNING: In production, allow only those domains which you trust.
 ALLOWED_HOSTS = ['*']
-CSRF_TRUSTED_ORIGINS = ['https://*.azurewebsites.net']
+CSRF_TRUSTED_ORIGINS = ['https://*.azurewebsites.net', 'https://resume.barillamw.com']
 CORS_ALLOW_ALL_ORIGINS: True
 
 # Application definition
